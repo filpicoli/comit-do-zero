@@ -1,0 +1,148 @@
+*{ 
+    font-family:  "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+img {
+    margin: 20px 0 0 123px;
+    display: inline-block;
+    border: none;
+}
+
+header {
+    margin: 47px 0 209px 42px; 
+    position: sticky;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    margin-right: 36px;
+    cursor: pointer;
+
+}
+
+.button-acima {
+    background-color: #6FBF44;
+    border-radius: 10px;
+    border: none;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+ 
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px; 
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+  }
+
+.button-abaixo {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    border: none;
+    width: 112px;
+    height: 27px;
+    background: transparent;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 900px) {
+    section {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 124px
+    }
+
+    img {
+        display: block;
+        height: auto;
+        width: 90%;
+        margin: 15px 20px;
+        position: absolute;
+        bottom: 30px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        color: #161A49;
+        text-align: center;
+        width: 278px;
+        margin-left: 57px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        color: #4B505A;
+        text-align: center; 
+        width: 304px;
+        margin-left: 45px;
+        margin-top: 29px;
+
+    }
+
+    .button-abaixo{
+        color: #6FBF44;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center; 
+        margin: 10px 139px;
+        display: block;
+    }
+
+    .link-header{
+        display: none;
+    }
+    
+    .button-acima{
+        width: 91px;
+        height: 31px;
+        border-radius: 6px;
+        background: #6FBF44;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 1px;
+        margin: 0px 15px 0 209px;
+    }
+
+}
