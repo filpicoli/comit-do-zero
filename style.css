@@ -8,26 +8,37 @@
 
 img {
     margin: 20px 0 0 123px;
-    display: inline-block;
+    display: inline;
     border: none;
 }
 
-header {
-    margin: 47px 0 209px 42px; 
-    position: sticky;
+#logo-paraibuna {
+    width: 400px;
+    height: 75px;
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 200px;
 }
 
-.link-header {
+header {
+    background-color: #161A49;
+    margin-bottom: 200px;
+}
+
+.link-header{
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #17233D;
+    color: #FFF;
     margin-right: 36px;
+    margin-top: 45px;
     cursor: pointer;
+    position: relative;
+    bottom: 30px;
+}   
 
-}
 
-.button-acima {
+.button-acima{
     background-color: #6FBF44;
     border-radius: 10px;
     border: none;
@@ -38,7 +49,10 @@ header {
     font-weight: 500;
     line-height: 24px;
     cursor: pointer;
+    position: relative;
+    bottom: 30px;
 }
+
 
 section {
     display: inline-block;
