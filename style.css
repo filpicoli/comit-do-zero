@@ -6,12 +6,6 @@
 
 }
 
-img {
-    margin: 20px 0 0 123px;
-    display: inline;
-    border: none;
-  
-}
 
 #logo-paraibuna {
     width: 400px;
@@ -19,6 +13,7 @@ img {
     display: inline-block;
     margin-left: 70px;
     margin-right: 200px;
+    margin-top: 20px;
 }
 
 header {
@@ -62,11 +57,18 @@ main {
 
 }
 
+.image-rosto {
+    margin: 0 0 80px 123px;
+    display: inline;
+    border: none;
+  
+}
+
 section {
     display: inline-block;
     margin-left: 85px;
-    width: 493px;
-    margin-top: 120px;
+    width: 540px;
+    margin-top: 130px;
 }
 
  
