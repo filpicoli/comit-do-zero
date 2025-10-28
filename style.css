@@ -58,9 +58,10 @@ main {
 }
 
 .image-rosto {
-    margin: 0 0 80px 123px;
+    margin: 0 0 50px 123px;
     display: inline;
     border: none;
+    width: 400px;
   
 }
 
